@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Registration Form</title>
+</head>
+
+<body style="background-image:"tablebackground.jpg">
+  <img src="ipuregistration.PNG" width="1000"  align="right"> 
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <hr>
+    
+
+    <center>
+    <h1 align="center"><ins>Registration Form</ins></h1>
+    <form >
+    
+        
+
+        <label for="Name">Name:</label>
+        <input type="text" id="Name" maxlength="20" autofocus required placeholder="Enter Name">
+        <br>
+        <br>
+        <label for="Gender">Gender:</label>
+        <label for="Male">Male</label>
+        <input type="radio" id="Male" name="Gender" required>
+        <label for="Female">Female</label>
+        <input type="radio" id="Female" name="Gender" required>
+        <label for="Transgender">Transgender</label>
+        <input type="radio" id="Transgender" name="Gender" required>
+        <br>
+        <br>
+        <label for="Eligibility">Are You 18+?</label>
+        <input type="checkbox" id="Eligibility" checked>
+        <br>
+        <br>
+        <label for="Age">Age (Between 18-25):</label>
+        <input type="number" min="18" max="25">
+        <br>
+        <br>
+        <label for="Id">Id:</label>
+
+        <select id="Id">
+            <option>Aadhar Card</option>
+            <option>PAN Card</option>
+            <option>Driving License</option>
+        </select>
+        <br>
+        <br>
+        <label for="InputId">Enter Id:</label>
+        <input type="text" id="InputId">
+        <br>
+        <br>
+        <label for="Mobile">Mobile Number :</label>
+        <input type="tel" id="Mobile">
+        <br>
+        <br>
+        <label for="Email">Email Id</label>
+        <input type="email" id="Email">
+        <br>
+        <br>
+        <label for="DOB">Date of Birth(DOB):</label>
+        <input type="Date" id="DOB" required>
+        <br>
+        <br>
+        <label for="Fathers Name">Fathers Name:</label>
+        <input type="text" id="FathersName" required>
+        <br>
+        <br>
+        <label for="Mothers Name">Mothers Name:</label>
+        <input type="text" id="MothersName" required>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Intermediate Examination</legend>
+            <label for="ISchoolName">School Name:</label>
+            <input type="Text" name="ISchoolName" id="ISchoolName">
+            <br>
+            <br>
+            <label for="IEducation Board">Board:</label>
+            <select id="IEducation Board">
+             <optgroup label="Private Board">
+                    <option>CBSE</option>
+                    <option>ICSE</option>
+                    <option>ISC</option>
+
+                </optgroup>
+                <optgroup label="State Board">
+                    <option>UP Board</option>
+                    <option>MP Board</option>
+                    <option>Delhi Board</option>
+                    <option>Punjab Board</option>
+                    <option>Haryana Board</option>
+                </optgroup>
+            </select>
+            <br>
+            <br>
+            <label for="IRollNo">RollNo:</label>
+            <input type="text" name="IRollNo" id="IRollNo" maxlength=15 required>
+            <br>
+            <br>
+            <label for="IGrade">Percentage:</label>
+            <input type="text" name="IGrade" id="IGrade" required>
+            <br>
+            <br>
+            <label for="Stream">Stream:</label>
+            <input TYPE="TEXT" name="Stream" id="Stream" maxlength="20">
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>HighSchool Examination</legend>
+            <label for="HSchoolName">School Name:</label>
+            <input type="Text" name="HSchoolName" id="HSchoolName">
+            <br>
+            <br>
+            <label for="HEducation Board">Board:</label>
+            <select id="HEducation Board">
+                <optgroup label="Private Board">
+                    <option>CBSE</option>
+                    <option>ICSE</option>
+                    <option>ISC</option>
+
+                </optgroup>
+                <optgroup label="State Board">
+                    <option>UP Board</option>
+                    <option>MP Board</option>
+                    <option>Delhi Board</option>
+                    <option>Punjab Board</option>
+                    <option>Haryana Board</option>
+                </optgroup>
+            </select>
+            <br>
+            <br>
+            <label for="HRollNo">RollNo:</label>
+            <input type="text" name="MRollNo" id="HRollNo" maxlength=15 required>
+            <br>
+            <br>
+            <label for="HGrade">Percentage:</label>
+            <input type="text" name="HGrade" id="HGrade" required>
+            <br>
+            <br>
+            <label for="Subject">Subjects:</label>
+            <input TYPE="TEXT" name="Subject" id="Subject" maxlength="100" required>
+        </fieldset>
+        <br>
+        <br>
+        <label for="About">Write About Yourself</label>
+        <textarea rows="5" cols="20" maxlength="300" id="About">
+
+        </textarea>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Upload Documents</legend>
+            <label for="Upload Marksheet">Upload Intermediate Marksheet:</label>
+            <input type="file" id="Upload Marksheet" accept=".docx,image/jpeg,.pdf" required>
+            <br>
+            <br>
+            <label for="Upload Marksheet">Upload HighSchool Marksheet:</label>
+            <input type="file" id="Upload Marksheet" accept=".docx,image/jpeg,.pdf" required>
+            <br>
+            <br>
+            <label for="Upload Photo">Upload Photo:</label>
+            <input type="file" id="Upload Photo" accept=".docx,image/jpeg,.pdf" required>
+            <br>
+            <br>
+            <label for="Upload Signature">Upload Signature:</label>
+            <input type="file" id="Upload Signature" accept=".docx,image/jpeg,.pdf" required>
+        </fieldset>
+        <br>
+        <br>
+
+        <label for="Password">Create Password :</label>
+        <input type="password" name="Password" id="Password" required>
+        <br>
+        <br>
+        <label for="Confirm Password">Confirm Password:</label>
+        <input type="password" name="Confirm Password" id="Confirm Password" required>
+        <br>
+        <br>
+       <label for="submit" ></label>
+        <button type="submit" id="submit" title="Submit"><img src="arrow.png" width="50" vspace="10"></button>
+    
+        <label for="reset"  ></label>
+        <input type="reset" name="reset" id="reset">
+    
+    </form>
+</center>
+
+</body>
+
+</html>

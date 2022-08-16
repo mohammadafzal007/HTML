@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 align="center"><ins>Customer Information Form</ins></h1>
+  
+    <form action="backend.php">
+        
+       Name: <input type="text" name="Name" id="Name">
+        <br>
+        <br>
+        
+            Roll_No: <input type="number" name="Roll_No" id="Roll_No" required/>
+            <br>
+            <br>
+            
+                Gender: Male<input type="radio" name="Gender"> FeMale<input type="radio" name="Gender">
+                <br>
+                <br>
+               
+                    DOB: <input type="Date" name="Date" id="Date">
+                    <br>
+                    <br>
+                    
+                        E-mail: <input type="email" name="Email" id="email">
+                        <br>
+                        <br>
+                        Phone No: <input type="tel" name="telephone">
+
+                        <br>
+                                <br>
+                            Are You 18+? <input type="checkbox" name="Eligibility" id="Eligibility">
+                            <br>
+                            <br>
+                            Age: <input type="Range" min="18" max="30" value="Range">
+                            <br>
+                    <br>
+                                Write About Yourself: <br><textarea name="area" rows="10" cols="5" name="Area"
+                                   id="About" resize="none"></textarea>
+                                <br>
+                                <br>
+                                
+                                College_Name <select name="College_Name">
+                                        <optgroup label="Government">
+                                        <option value="BPIBS">BPIBS</option>
+                                        <option value="AIT">AIT</option>
+                                    </optgroup>
+                                    <optgroup label="Private">
+                                        <option value="VIPS">VIPS</option>
+                                    </optgroup>  
+                                    </select>
+                                    <br>
+                                    <br>
+                                   Choose Color: <input type="color" value="color" name="color">
+                                   <br>
+                                   <br>
+
+                                    Create Password<input type="password" maxlength="8" name="password">
+                                    <br>
+                                    <br>
+                                    
+                                    Confirm Password<input type="password" maxlength="8" name="confirm password">
+                                    <br>
+                                    <br>Enter URL: <input type="url" name="website">
+                                    <br>
+                                    <br>
+                                    Upload Documents: <input type="file" value="file" accept="image/*" name="file">
+                                   
+                                    <BR>
+                                        <br>
+                                        
+                                    <input type="image" src="arrow.png" width="50" vspace="10" name="Documents" value="Documents">
+                                    <br>
+                                    <br>
+                                   <input type="button"  value="Click Me!">
+                                    <input type="submit" value="Submit Now">
+
+                                    <input type="reset" value="Reset Now">
+    </form>
+
+</body>
+
+</html>
